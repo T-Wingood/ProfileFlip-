@@ -1,4 +1,5 @@
 .flip-card{
+    margin-left: 5rem;
     height: 45rem;
     width: 20rem;
     background-color: transparent;
@@ -15,7 +16,8 @@
     transform-style: preserve-3d;
 }
 
-.flip-card:hover .flip-card-inner{
+
+.flip-card-inner.is-flipped{
     transform: rotateY(180deg);
 }
 
@@ -27,26 +29,33 @@
 }
 
 .flip-card-front{
-    background-color: blueviolet;
-    color:black;
+    background-image: url(./assets/TW\ Photo.jpg);
+    background-size: cover;
+    color:white;
 }
 
 .flip-card-back{
-    background-color: cadetblue;
+    background-image: url(./assets/KestrelCafe.jpg);
+    background-size: cover;
     color: white;
     transform: rotateY(180deg);
 }
 
+.flip-card-back-header{
+    background-color: rgba(238, 0, 255, 0.097);
+}
+
 .linked-in{
     padding: 1.5rem;
-    margin-top: 8rem;
+    margin-top: 20rem;
     height: 17rem;
     width: 17rem;
 }
 
 .resume{
     padding: 1.5rem;
-    margin-top: 8rem;
+    margin-top: 20rem;
     height: 17rem;
     width: 17rem;
 }
+
