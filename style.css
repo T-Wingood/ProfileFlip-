@@ -16,7 +16,6 @@
     transform-style: preserve-3d;
 }
 
-
 .flip-card-inner.is-flipped{
     transform: rotateY(180deg);
 }
@@ -34,6 +33,10 @@
     color:white;
 }
 
+.flip-card-front-header{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
 .flip-card-back{
     background-image: url(./assets/KestrelCafe.jpg);
     background-size: cover;
@@ -43,6 +46,7 @@
 
 .flip-card-back-header{
     background-color: rgba(0, 0, 5, 0.253);
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .linked-in{
